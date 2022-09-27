@@ -4,8 +4,8 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <div className="px-16">
-        <p className="font-light pt-12 pb-4 text-3xl">Runner's Workout</p>
+      <div className="px-2 md:px-16 lg:px-24">
+        <p className="font-light pt-12 pb-6 text-3xl">Runner's Workout</p>
         <div>
           <RunnersWorkout />
         </div>
